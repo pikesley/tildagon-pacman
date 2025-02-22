@@ -1,0 +1,9 @@
+sprite-spacing: 2.5
+off-screen-limit: 240
+player:
+  scale:
+    default: 6
+    max: 100
+    min: 1
+  speed: 4
+led-brightness: 0.5
