@@ -3,7 +3,7 @@
   "off-screen-limit": 240,
   "player": {
     "scale": {
-      "default": 6,
+      "default": 4,
       "max": 100,
       "min": 1
     },
