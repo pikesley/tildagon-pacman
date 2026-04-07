@@ -10,8 +10,8 @@ else:
     path = ""
     ASSET_PATH = "apps/"
 
-    if "github_user_tildagon_pacman" in apps:
-        ASSET_PATH = "/apps/github_user_tildagon_pacman/"
+    if "pikesley_tildagon_pacman" in apps:
+        ASSET_PATH = "/apps/pikesley_tildagon_pacman/"
 
     if "pacman" in apps:
         ASSET_PATH = "apps/pacman/"
