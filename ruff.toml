@@ -14,7 +14,8 @@ lint.ignore = [
   "TID252", # it's all relative imports down here
   "D401", # the first line of my docstring will be in any mood I like
   "D400",  # we'll end with a question mark if we want to
-  "FBT003"  # imagine caring about boolean positional values in function call
+  "FBT003",  # imagine caring about boolean positional values in function call
+  "PTH208",
 ]
 lint.select = [
   "A", # flake8-builtins

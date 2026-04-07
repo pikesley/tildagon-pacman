@@ -1,3 +1,3 @@
 # Pacman
 
-* run `python scripts/replace_pacman.py`
+Pacman and some ghosts chasing about on your Tildagon

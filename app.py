@@ -97,20 +97,6 @@ class Game(app.App):
                 self.scale -= 1
                 self.sprite_train.rescale(self.scale)
 
-        # if self.button_states.get(BUTTON_TYPES["RIGHT"]):
-        #     self.button_states.clear()
-        #     # TODO move this to sprite_train
-        #     self.pacman_skins = self.pacman_skins[1:] + [self.pacman_skins[0]]
-        #     self.sprite_train.pacman.skin = self.sprite_train.pacman.skins[
-        #         self.pacman_skins[0]
-        #     ]
-
-        # if self.button_states.get(BUTTON_TYPES["LEFT"]):
-        #     self.button_states.clear()
-        #     self.ghost_skins = self.ghost_skins[1:] + [self.ghost_skins[0]]
-        #     for ghost in self.sprite_train.ghosts:
-        #         ghost.skin = ghost.skins[self.ghost_skins[0]]
-
     def light_leds(self, colour):
         """Light the lights."""
         for i in range(18):
